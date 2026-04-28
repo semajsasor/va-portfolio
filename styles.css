@@ -108,13 +108,13 @@ a.button {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 64px 0 42px;
+  padding: 48px 0 34px;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.25fr 0.95fr;
-  gap: 32px;
+  gap: 28px;
   align-items: start;
 }
 
@@ -126,7 +126,7 @@ a.button {
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
-  padding: 12px 18px;
+  padding: 10px 16px;
   border-radius: 999px;
   background: rgba(247,201,72,0.09);
   border: 1px solid rgba(247,201,72,0.22);
@@ -137,10 +137,10 @@ a.button {
 }
 
 .hero-title {
-  margin: 28px 0 18px;
-  font-size: clamp(3.8rem, 5vw, 5.8rem);
-  line-height: 0.92;
-  letter-spacing: -0.06em;
+  margin: 22px 0 14px;
+  font-size: clamp(3.35rem, 4.55vw, 5.15rem);
+  line-height: 0.94;
+  letter-spacing: -0.052em;
   text-transform: uppercase;
 }
 
@@ -154,7 +154,7 @@ a.button {
   font-size: 1rem;
   color: var(--muted);
   letter-spacing: 0.08em;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .hero-type {
@@ -162,7 +162,7 @@ a.button {
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
   color: var(--text);
 }
 
@@ -193,17 +193,17 @@ a.button {
 
 .hero-description {
   max-width: 640px;
-  margin: 0 0 32px;
+  margin: 0 0 24px;
   color: var(--muted);
   font-size: 1rem;
-  line-height: 1.85;
+  line-height: 1.75;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 26px;
 }
 
 .button {
@@ -299,14 +299,14 @@ a.button {
 
 .hero-panel {
   display: grid;
-  gap: 22px;
+  gap: 18px;
 }
 
 .profile-card {
   display: grid;
-  gap: 22px;
-  padding: 28px;
-  border-radius: 32px;
+  gap: 18px;
+  padding: 24px;
+  border-radius: 28px;
   background:
     linear-gradient(145deg, rgba(255,255,255,0.095), rgba(255,255,255,0.045)),
     var(--surface-soft);
@@ -319,11 +319,11 @@ a.button {
   position: relative;
   display: grid;
   place-items: center;
-  width: min(100%, 250px);
+  width: min(100%, 230px);
   aspect-ratio: 4 / 5;
   margin: 0 auto;
   padding: 10px;
-  border-radius: 28px;
+  border-radius: 26px;
   background:
     linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04)),
     rgba(255,255,255,0.05);
@@ -377,7 +377,7 @@ a.button {
 .profile-bio p {
   color: var(--muted);
   margin: 0;
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 .profile-bio .profile-tag {
@@ -388,16 +388,16 @@ a.button {
 
 .hero-quick-list {
   display: grid;
-  gap: 16px;
-  padding: 24px;
-  border-radius: 28px;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 24px;
   background: var(--surface);
   border: 1px solid var(--border);
 }
 
 .hero-quick-list div {
   display: grid;
-  gap: 10px;
+  gap: 7px;
 }
 
 .hero-quick-list span {
@@ -458,8 +458,8 @@ a.button {
 
 .section-header h2 {
   margin: 0;
-  font-size: clamp(2rem, 2.5vw, 3.4rem);
-  line-height: 1.06;
+  font-size: clamp(1.9rem, 2.25vw, 3rem);
+  line-height: 1.12;
   max-width: 780px;
   color: #f7f7f7;
 }
@@ -824,7 +824,7 @@ a.button {
   }
 
   .hero-grid {
-    gap: 38px;
+    gap: 32px;
   }
 
   .hero-contact-grid {
@@ -861,7 +861,7 @@ a.button {
   }
 
   .hero-title {
-    font-size: clamp(2.9rem, 10vw, 4.6rem);
+    font-size: clamp(2.85rem, 9.5vw, 4.25rem);
     line-height: 0.96;
   }
 
@@ -871,7 +871,7 @@ a.button {
   }
 
   .profile-photo {
-    width: min(100%, 190px);
+    width: min(100%, 188px);
   }
 
   .split-divider {
@@ -899,11 +899,11 @@ a.button {
   }
 
   .hero {
-    padding: 38px 0 28px;
+    padding: 34px 0 26px;
   }
 
   .hero-title {
-    font-size: clamp(2.5rem, 13vw, 3.6rem);
+    font-size: clamp(2.45rem, 12vw, 3.4rem);
     letter-spacing: -0.045em;
   }
 
@@ -929,11 +929,11 @@ a.button {
   }
 
   .profile-card {
-    padding: 24px;
+    padding: 22px;
   }
 
   .profile-photo {
-    width: min(100%, 180px);
+    width: min(100%, 176px);
     padding: 8px;
     border-radius: 24px;
   }
@@ -988,8 +988,8 @@ a.button {
   }
 
   .section-header h2 {
-    font-size: clamp(1.75rem, 8vw, 2.35rem);
-    line-height: 1.12;
+    font-size: clamp(1.65rem, 7.4vw, 2.15rem);
+    line-height: 1.16;
   }
 
   .accordion-button {
